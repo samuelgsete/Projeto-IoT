@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Cam-IoT
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <p style="text-align: center;" *ngIf="!detectando">Aguardando detecção de movimentação</p>
+    <p style="text-align: center;" *ngIf="detectando">Motimentação detectada</p>
+    <p style="text-align: center;" *ngIf="detectando">Ativando câmera...</p>
+    <ion-button (click)="ligarDesligar()">{{ led }}</ion-button>
+  </div>
+</ion-content>
