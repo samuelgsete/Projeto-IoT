@@ -1,0 +1,6 @@
+br\com\gsete\respository\RepositorioImagem.class
+br\com\gsete\models\Imagem.class
+br\com\gsete\producer\EntityManagerProducer.class
+br\com\gsete\api\rest\RecursoImagem.class
+br\com\gsete\models\EntidadeBase.class
+br\com\gsete\services\ServicoImagem.class
