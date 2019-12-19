@@ -1,0 +1,11 @@
+<p class="text-center" *ngIf="imagens.length == 0">Nenhuma imagem capturada</p>
+<div class="row">
+  <div class="card" style="width: 18rem;" *ngFor="let i of imagens">
+    <img class="card-img-top" [src]="i.base64" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Capturada em: {{ i.data }}</h5>
+      <button type="button" (click)="remover(i)" class="btn btn-danger">REMOVER</button>
+    </div>
+  </div>
+</div>
+
