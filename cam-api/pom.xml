@@ -27,7 +27,7 @@
 		<version.hibernate-validator>6.0.13.Final</version.hibernate-validator>
 		<version.jackson-core>2.9.6</version.jackson-core>
 		<version.jackson-annotations>2.9.6</version.jackson-annotations>
-		<version.jackson-databind>2.9.6</version.jackson-databind>
+		<version.jackson-databind>2.12.7.1</version.jackson-databind>
 		<version.org.jboss.bom>1.0.1.Final</version.org.jboss.bom>
 		<version.wildfly-plugin>1.2.2.Final</version.wildfly-plugin>
   </properties>
